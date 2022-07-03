@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "api-login-auth": "apps/api/login-auth",
+    "api-messaging": "apps/api/messaging",
     "shared-utils": "libs/shared/utils"
   }
 }
