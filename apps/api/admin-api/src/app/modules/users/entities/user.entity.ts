@@ -1,34 +1,34 @@
-import { Entity, Column } from "typeorm";
+import { Entity, Column } from 'typeorm';
 
-@Entity("users")
+@Entity('users')
 export class User {
-    @Column({
-        unique: true
-    })
-    id: "uuid" | unique
+  @Column({
+    unique: true,
+  })
+  id: 'uuid';
 
-    @Column({
-        unique: true
-    })
-    username: string | unique
+  @Column({
+    unique: true,
+  })
+  username: string;
 
-    @Column({
-        nullable: false
-    })
-    password: string
+  @Column({
+    nullable: false,
+  })
+  password: string;
 
-    @Column({
-        nullable: false
-    })
-    createdDate: Date
+  @Column({
+    nullable: false,
+  })
+  createdDate: Date;
 
-    @Column({
-        nullable: false
-    })
-    updatedAt: Date
+  @Column({
+    nullable: false,
+  })
+  updatedAt: Date;
 
-    @Column({
-        unique: true
-    })
-    email: string | unique
+  @Column({
+    unique: true,
+  })
+  email: string;
 }
