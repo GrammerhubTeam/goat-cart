@@ -7,7 +7,6 @@ export function initSwagger(app: INestApplication, port: number, prefix: string)
 		.setTitle('Messaging API')
 		.setDescription('API Documentation for the Messaging app')
 		.setVersion(version)
-		.addTag('SMS, Email')
 		.addBearerAuth()
 		.build();
 
